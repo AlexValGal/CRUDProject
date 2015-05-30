@@ -2,7 +2,7 @@
 	<!DOCTYPE html>
 	<html lang="es">
 		<head>
-			<link rel="icon" href="./favicon.ico" />
+			<link rel="shortcut icon" href="http://sia1.subirimagenes.net/img/2015/05/30/150530033157630285.png" />
 			<#-- bootstrap -->
 			<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.4/slate/bootstrap.min.css" rel="stylesheet" />
 			<#-- Personal Styles -->

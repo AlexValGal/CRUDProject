@@ -2,7 +2,7 @@
 
 <#macro menu>
 	<li class="active"><a href="/">Consultrar</a></li>
-	<li><a href="/add">Añadir</a></li>
+	<li><a href="/add">A&ntilde;adir</a></li>
 	<li><a href="/edit/0">Editar</a></li>
 	<li><a href="/delete/0">Borrar</a></li>
 </#macro>
