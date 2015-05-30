@@ -1,8 +1,7 @@
 <#macro display_page>
-	<!DOCTYPE html> 
+	<!DOCTYPE html>
 	<html lang="es">
 		<head>
-			<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 			<link rel="icon" href="./favicon.ico" />
 			<#-- bootstrap -->
 			<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.4/slate/bootstrap.min.css" rel="stylesheet" />
