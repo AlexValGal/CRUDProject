@@ -25,7 +25,7 @@
 		    	<td>${game.types}</td>
 		    	<td>${game.platform}</td>
 		    	<td>${game.launchdate}</td>
-		    	<td>${game.webPage}</td>
+		    	<td><a href="http://${game.webPage}">${game.webPage}</a></td>
 		    </tr>
 		</#list>
 	  </tbody>
