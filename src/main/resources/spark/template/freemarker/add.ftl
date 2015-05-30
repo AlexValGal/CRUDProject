@@ -8,7 +8,7 @@
 </#macro>
 
 <#macro content>
-<form action="/add/${id}" method="post">
+<form action="/add/id" method="post">
 	<table class="table table-striped table-hover ">
 	  <thead>
 	    <tr>

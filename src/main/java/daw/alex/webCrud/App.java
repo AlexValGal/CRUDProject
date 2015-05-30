@@ -67,21 +67,20 @@ public class App {
             @Override
             public ModelAndView handle(Request rqst, Response rspns) {
                 data.put("error2","none");
-                data.put("id",VideoGameDAO.nextID());
                 data.put("games",VideoGameDAO.pagina((int) (VideoGameDAO.contar()/10)));
                 return modelAndView(data,"add.ftl");
             }
             
         });
         
-        post(new FreeMarkerRoute("/add/:newid") {
+        post(new FreeMarkerRoute("/add/id") {
 
             @Override
             public Object handle(Request rqst, Response rspns) {
             try {
                 queryCheck(rqst);
                 data.put("error","none");
-                VideoGameDAO.añadir(queryToClass(rqst,rqst.params(":newid")));
+                VideoGameDAO.añadir(queryToClass(rqst,VideoGameDAO.nextID()));
             } catch (IllegalArgumentException ex) {
                 data.put("error","block");
             }
@@ -143,7 +142,7 @@ public class App {
             try {
                 queryCheck(rqst);
                 data.put("error2","none");
-                VideoGameDAO.actualizar(queryToClass(rqst,rqst.params(":id")));
+                VideoGameDAO.actualizar(queryToClass(rqst,Double.parseDouble(rqst.params(":id"))));
             }catch (IllegalArgumentException ex) {
                 data.put("error2","block");
             }
@@ -194,10 +193,10 @@ public class App {
         };
     }
     
-    private static VideoGame queryToClass(Request rqst,String id) {
+    private static VideoGame queryToClass(Request rqst,double id) {
         VideoGame game = new VideoGame();
         
-        game.setId(Double.parseDouble(id));
+        game.setId(id);
         game.setName(rqst.queryParams("name"));
         game.setLaunchdate(rqst.queryParams("launchdate"));
         game.setWebPage(rqst.queryParams("webPage"));
