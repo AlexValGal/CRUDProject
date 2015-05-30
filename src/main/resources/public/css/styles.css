@@ -34,8 +34,11 @@
 
 table {
 	table-layout: fixed;
-	overflow: hidden;
 	white-space: nowrap;
+}
+
+table td {
+	overflow: hidden;	
 }
 
 th.edit {
