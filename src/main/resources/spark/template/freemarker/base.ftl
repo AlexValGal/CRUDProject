@@ -2,15 +2,18 @@
 	<!DOCTYPE html> 
 	<html lang="es">
 		<head>
+			<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+			<link rel="icon" href="./favicon.ico" />
 			<#-- bootstrap -->
 			<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.4/slate/bootstrap.min.css" rel="stylesheet" />
 			<#-- Personal Styles -->
 			<link rel="stylesheet" type="text/css" href="/css/styles.css" />
-			<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+
+			<#-- MetaDatos -->
 			<meta name="description" content="VideoGame Library About my Played Games" />
 			<meta name="keywords" content="VideoGame,List,Library,Games,Gamer,Gaming" />
 			<meta name="author" content="Alex Valencia Gallego" />
-			<link href="favicon.ico" rel="icon" type="image/x-icon" />
+			
 			<title>Biblioteca de Videojuegos</title>
 			
 		</head>
