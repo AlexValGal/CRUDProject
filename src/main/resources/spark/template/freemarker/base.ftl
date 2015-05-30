@@ -1,22 +1,18 @@
-<#macro head>
-	<title>Biblioteca de Videojuegos</title>
-</#macro>
-
-
 <#macro display_page>
-	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> 
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
 	<html lang="es">
 		<head>
-			<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+			<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 			<#-- bootstrap -->
 			<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.4/slate/bootstrap.min.css" rel="stylesheet" />
 			<#-- Personal Styles -->
 			<link rel="stylesheet" type="text/css" href="/css/styles.css" />
-			<meta charset="UTF-8" />
+			<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
 			<meta name="description" content="VideoGame Library About my Played Games" />
 			<meta name="keywords" content="VideoGame,List,Library,Games,Gamer,Gaming" />
 			<meta name="author" content="Alex Valencia Gallego" />
-			<@head />
+			<title>Biblioteca de Videojuegos</title>
+			<link href="favicon.ico" rel="icon" type="image/x-icon" />
 		</head>
 		<body>
 			<div id="header">
@@ -35,7 +31,6 @@
 			<div id ="footer">
 				<p>Creado por Alex Valencia</p>
 			</div>
-
 		</body>
 	</html>
 </#macro>

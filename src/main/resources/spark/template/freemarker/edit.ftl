@@ -19,7 +19,7 @@
 	      <th>Plataforma</th>
 	      <th>Lanzamiento</th>
 	      <th>Web</th>
-	      <th></th>
+	      <th />
 	    </tr>
 	  </thead>
 	  <tbody>
