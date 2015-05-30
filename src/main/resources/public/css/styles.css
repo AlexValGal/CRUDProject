@@ -32,6 +32,20 @@
 	clear:both;
 }
 
+table {
+	table-layout: fixed;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+th.edit {
+	width: 5%;
+}
+
+th.del {
+	width: 2%
+}
+
 table td {
 	width: 20%;
 }
@@ -40,11 +54,7 @@ table td {
 	margin:0.5em;
 }
 
-.selectbtn {
-	width: 2%;
-}
-
-td a{
+td a.btn{
 	display:block;
 	width:1.5em;
 	height:1.5em;

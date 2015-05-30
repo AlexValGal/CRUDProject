@@ -13,7 +13,7 @@
 	<table class="table table-striped table-hover ">
 	  <thead>
 	    <tr>
-	   	<th />
+	   	<th class="del"/>
 	      <th>Nombre</th>
 	      <th>Generos</th>
 	      <th>Plataforma</th>
@@ -25,7 +25,7 @@
 	  	<#list games as game>
 
 	    <tr>
-	    	<td class="selectbtn"><a href="/delete/id/${game.id}" class="btn btn-danger btn-xs" /></td>
+	    	<td><a href="/delete/id/${game.id}" class="btn btn-danger btn-xs" /></td>
 	    	<td>${game.name}</td>
 	    	<td>${game.types}</td>
 	    	<td>${game.platform}</td>

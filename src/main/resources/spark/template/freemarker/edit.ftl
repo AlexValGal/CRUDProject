@@ -19,7 +19,7 @@
 	      <th>Plataforma</th>
 	      <th>Lanzamiento</th>
 	      <th>Web</th>
-	      <th />
+	      <th class="edit" />
 	    </tr>
 	  </thead>
 	  <tbody>
@@ -37,7 +37,7 @@
 		      value="${game.launchdate}"/></td>
 		      <td><input class="form-control input-sm" type="text" name="webPage"
 		      value="${game.webPage}"/></td>
-		      <td class="selectbtn"><input type="submit" value="Up" class="btn btn-info btn-sm"/></td>
+		      <td><input type="submit" value="Up" class="btn btn-info btn-sm"/></td>
 	    </form>
 	    </tr>
 		</#list>
